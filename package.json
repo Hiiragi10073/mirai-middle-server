@@ -1,0 +1,18 @@
+{
+  "name": "mirai-middle-server",
+  "version": "1.1.4",
+  "description": "使用miraijs开发,用于连接kuginn等外部服务与mirai通信的中转服务器",
+  "author": "mol",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node start.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "mirai-js": "^2.8.11"
+  },
+  "devDependencies": {
+    "dotenv": "^16.1.1"
+  }
+}
